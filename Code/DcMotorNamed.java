@@ -2,6 +2,8 @@ package com.qualcomm.ftcrobotcontroller;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 
+// DcMotor plus a string name for the motor
+
 public class DcMotorNamed extends DcMotor{
     String name;
     DcMotor motor;
