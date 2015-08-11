@@ -4,6 +4,8 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 import java.util.ArrayList;
 
+// Common variables and methods used in multiple other classes
+
 public class Essentials {
 
     public static final float joystickDZ = (float)0.2;
