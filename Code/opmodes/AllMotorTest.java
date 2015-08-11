@@ -7,6 +7,10 @@ import com.qualcomm.ftcrobotcontroller.ServoNamed;
 
 import java.util.ArrayList;
 
+// AllMotorTest
+// Tests individual motors and servos using Gamepad 1
+// Displays motor settings in real time on Driver Station telemetry
+
 public class AllMotorTest extends OpMode {
 
     ArrayList<DcMotorNamed> motors = new ArrayList<>();
